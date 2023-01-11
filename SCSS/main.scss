@@ -11,7 +11,11 @@ body{
 .container{
     border: 5px solid red;
 }
-
+.headings{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
 .navbar{
     width: 100%;
     display: flex;
@@ -39,11 +43,6 @@ body{
     }
 }
 .main{
-    h2{
-        color: #fff;
-        text-align: center;
-        padding: 20px 0;
-    }
     .main-article{
         img{
         float: left;
@@ -54,6 +53,13 @@ body{
     p{
         color: #fff;
        
+        }
+    }
+    section{
+        .cards{
+            display: flex;
+            justify-content: space-between;
+
         }
     }
 }
